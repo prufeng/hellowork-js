@@ -1,0 +1,18 @@
+{
+  "name": "hellowork",
+  "version": "1.0.0",
+  "description": "Node.js Hellowork",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Node.js hellowork",
+    "Node.js helloworld"
+  ],
+  "author": "PanRufeng",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "~2.4.2"
+  }
+}
