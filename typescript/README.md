@@ -46,7 +46,7 @@ Test done, console output: Hello World
 }
 ```
 Parameters' options please refer to:   
-https://www.typescriptlang.org/docs/handbook/tsconfig-json.html
+https://www.typescriptlang.org/docs/handbook/tsconfig-json.html    
 https://www.typescriptlang.org/docs/handbook/compiler-options.html
 
 ## 3.2 Build project
