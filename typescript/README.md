@@ -62,6 +62,12 @@ test.js.map
 Select `tsc:build-tsconfig.json`, compile the project.   
 Select `tsc:watch-tsconfig.json`, will start a watch job in terminal to compile the project files automately when they are modified.   
 
+## 4.2 Debug(F5)
+Set main module or start scripts in package.json, then can run with F5 in VS Code.
+e.g.   
+```
+"main": "test.js"
+```
 
 More details please refer to:   
 https://code.visualstudio.com/Docs/languages/typescript
