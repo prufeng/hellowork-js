@@ -1,8 +1,12 @@
 TypeScript Express Starter
 =======
-Turn the express-generator Helloworld project to TypeScript
+Turn the express-generator Helloworld project to TypeScript.
 
-# Install
+# Get Started
+
+```bash
+npm install
+```
 
 Run build task, compile the ts to js.
 ```bash
