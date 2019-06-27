@@ -1,21 +1,19 @@
 var http = require('http');
 var fs = require('fs');
-http.createServer(function(req, res) {
-    if (req.url == '/') {
-        fs.readFile('./titles.json', function(err, data) {
-            if (err) {
-                return hadError(err, res);
-            }
-            getTemplate(res, JSON.parse(data.toString()));
-        });
-    }
+http.createServer(function (req, res) {
+    getTitles(res);
 }).listen(3000, "127.0.0.1");
 
+function getTitles(res) {
+    fs.readFile('./titles.json', function (err, data) {
+        if (err) return hadError(err, res);
+        getTemplate(res, JSON.parse(data.toString()));
+    });
+}
 function getTemplate(res, titles) {
     fs.readFile('./template.html', function (err, data) {
-        if (err) {
-            return hadError(err, res);
-        }
+        if (err) return hadError(err, res);
+
         formatHtml(data.toString(), titles, res);
     });
 }
