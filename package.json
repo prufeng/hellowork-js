@@ -1,0 +1,8 @@
+{
+    "name": "hellowork",
+    "version": "0.0.1",
+    "description": "hello work",
+    "dependencies": {
+        "nimble": "0.0.2"
+    }
+}
