@@ -1,0 +1,8 @@
+{
+    "name": "C6connect",
+    "version": "0.0.1",
+    "description": "Connect",
+    "dependencies": {
+        "connect": "^3.7.0"
+    }
+}
