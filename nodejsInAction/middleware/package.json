@@ -1,0 +1,10 @@
+{
+    "name": "C7connect",
+    "version": "0.0.1",
+    "description": "Connect middleware",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "connect": "^3.7.0",
+        "cookie-parser": "^1.4.5"
+    }
+}
